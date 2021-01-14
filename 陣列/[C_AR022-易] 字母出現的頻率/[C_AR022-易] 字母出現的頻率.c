@@ -4,14 +4,14 @@ int main()
     int cnt[26]={0};
     char input[1024]={0};
     int i=0;
-    fgets(input,1024,stdin);
-    while(input[i]!='\0')
+    fgets(input,1024,stdin);    //讀入字串
+    while(input[i]!='\0')   
     {
-        if(input[i]>64&&input[i]<91)
+        if(input[i]>64&&input[i]<91)    //A~Z
         {
             cnt[input[i]-65]++;
         }
-        else if(input[i]>96&&input[i]<123)
+        else if(input[i]>96&&input[i]<123)  //a~z
         {
             cnt[input[i]-97]++;
         }
