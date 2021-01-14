@@ -2,9 +2,9 @@
 int main()
 {
     int m;
-    while(scanf("%d",&m)!=EOF)
+    while(scanf("%d",&m)!=EOF)  //連續讀入m=價錢	
     {
-        if(m<=800)
+        if(m<=800)  
         {
             double f;
             f=m*0.9;
