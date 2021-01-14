@@ -3,8 +3,8 @@ int main()
 {
     char a[13][8]={{"monkey"},{"rooster"},{"dog"},{"pig"},{"rat"},{"ox"},{"tiger"},{"rabbit"},{"dragon"},{"snake"},{"horse"},{"goat"}};
     int year,dif,tai;
-    scanf("%d",&year);
-    tai=year%12;
+    scanf("%d",&year);  //讀入年數
+    tai=year%12;    //mod 12
     if(tai>=6&&tai<=11)
     {
         dif=tai-6;
