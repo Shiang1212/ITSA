@@ -4,9 +4,9 @@ int main()
     int cnt;
     scanf("%d",&cnt);
     int a,b;
-    while(scanf("%d%d",&a,&b)!=EOF)
+    while(scanf("%d%d",&a,&b)!=EOF) //連續讀入a=帳號,b=密碼
     {
-        if(a==123&&b==456)
+        if(a==123&&b==456)  //帳號=123,密碼=456
         {
             printf("9000\n");
         }
