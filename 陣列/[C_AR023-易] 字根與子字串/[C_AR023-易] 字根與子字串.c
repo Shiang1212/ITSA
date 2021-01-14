@@ -6,7 +6,7 @@ int main()
     char tar[100];
     scanf("%s",src);
     scanf("%s",tar);
-    char *ptr = strstr(tar,src);
+    char *ptr = strstr(tar,src);    //ptr存取src在tar的位置
     if(ptr)
     {
         printf("YES\n");
