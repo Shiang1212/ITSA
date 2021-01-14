@@ -8,7 +8,7 @@ int main()
     int i=0;
     while(i<5)
     {
-        scanf("%s",input);
+        scanf("%s",input);  //讀取字元
         if(strcmp(input,"A")==0)
         {
             sum+=14;
@@ -27,7 +27,7 @@ int main()
         }
         else
         {
-            sum+=atoi(input);
+            sum+=atoi(input);   //將char內容轉為int
         }
         i++;
     }
