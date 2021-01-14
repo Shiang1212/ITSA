@@ -2,9 +2,9 @@
 int main()
 {
     int a,b;
-    while(scanf("%d%d",&a,&b)!=EOF)
+    while(scanf("%d%d",&a,&b)!=EOF) //連續讀入兩數
     {
-        if(a<=60)
+        if(a<=60)   
         {
             float k=a;
             printf("%.1lf\n",k*b);
